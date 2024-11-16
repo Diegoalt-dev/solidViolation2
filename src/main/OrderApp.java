@@ -11,13 +11,14 @@ public class OrderApp {
         // Crear una orden con un ID y un monto
         Order order = new Order("ORD123", 250.75);
 
-        // Traigo la dependencia de la implementacion de la orden
+        // Traigo una instancia de dataSource (dependencia)
         DataSource databaseMysql = DatabaseMysql.getInstance();
+        // Traigo una instancia de OrderService inyectando la dependencia DataSource
         OrderService orderService = OrderServiceImpl.getInstance(databaseMysql);
-        // Guardar la orden en la base de datos
+        // Utilizo el servicio de order para guardar la orden en la base de datos
         orderService.saveOrder(order);
 
-        // Generar y mostrar el reporte de la orden
+        // Utilizo el servicio de order para generar y mostrar el reporte de la orden
         String report = orderService.generateOrderReport(order);
         System.out.println(report);
     }

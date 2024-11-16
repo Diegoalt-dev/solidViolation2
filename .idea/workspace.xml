@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a7df7fd-4914-4127-ba3c-14d99a3029ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bd/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicios/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicios/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bd/DatabaseMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bd/DatabaseMysql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/OrderApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Order.java" afterDir="false" />
@@ -56,7 +53,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/refactor",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/dprieto/personal/solid-work/solidViolation2",
@@ -70,6 +67,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="x" />
       <recent name="rappi" />
@@ -157,7 +157,7 @@
       <workItem from="1691102413439" duration="3948000" />
       <workItem from="1691186508218" duration="4373000" />
       <workItem from="1731173438303" duration="321000" />
-      <workItem from="1731716297603" duration="5340000" />
+      <workItem from="1731716297603" duration="8885000" />
     </task>
     <servers />
   </component>

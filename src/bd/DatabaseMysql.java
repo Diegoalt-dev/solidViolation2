@@ -1,8 +1,6 @@
 package bd;
 
 import modelo.Order;
-import servicios.OrderService;
-import servicios.OrderServiceImpl;
 
 public class DatabaseMysql implements DataSource {
     private static DataSource instance;
@@ -14,10 +12,11 @@ public class DatabaseMysql implements DataSource {
         return instance;
     }
 
-    public synchronized DataSource setNewConnection(){
+    public synchronized DataSource setNewConnection() {
         //setea nueva conexion
         return this;
     }
+
     public void save(Order order) {
         System.out.println("Guarde en la base de datos");
     }
